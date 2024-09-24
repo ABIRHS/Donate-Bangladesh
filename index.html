@@ -30,23 +30,91 @@
 
       <nav class="navbar bg-base-100 justify-evenly bg-[#F9F7F3] pt-6 pb-16">
         <button
-          class="btn px-8 text-xl font-semibold text-[#111111 bg-[#B4F461]"
+          class="btn px-8 text-xl font-semibold text-[#111111] bg-[#B4F461]"
         >
           Blog
         </button>
         <div>
-          <img class="w-12" src="./assets/logo.png" alt="icon" />
+          <img class="w-12" src="./assets/logo.png" alt="brand-logo" />
           <h1 class="pl-4 text-xl font-semibold text-[#111111]">
             Donate Bangladesh
           </h1>
         </div>
         <div>
-          <img class="w-7" src="./assets/coin.png" alt="icon" />
+          <img class="w-7" src="./assets/coin.png" alt="coin-icon" />
           <p class="pl-3 text-xl font-medium text-[#111111]">5500 BDT</p>
         </div>
       </nav>
 
       <!-- NAVBAR END -->
+
+      <!-- TOGGLE BUTTON START -->
+
+      <div class="w-80 justify-center items-center pt-20 pb-8 mx-auto">
+        <div>
+          <!-- Left-Side Button -->
+          <button
+            class="btn px-8 text-xl font-semibold text-[#111111] bg-[#B4F461]"
+          >
+            Donation
+          </button>
+
+          <!-- Right-Side Button -->
+          <button class="btn px-8 text-xl font-semibold text-[#111111]">
+            History
+          </button>
+        </div>
+      </div>
+
+      <!-- TOGGLE BUTTON END -->
+
+      <!-- CARD NO. #1 START -->
+      <div class="w-auto h-[453px] p-8 card lg:card-side bg-base-100 shadow-xl">
+        <!-- Image Body -->
+        <figure>
+          <img
+            class="w-[522px] h-[389px] self-stretch"
+            src="./assets/noakhali.png"
+            alt="flood"
+          />
+        </figure>
+
+        <!-- Card Text -->
+        <div class="pl-8 space-y-6">
+          <div
+            class="flex w-28 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
+          >
+            <img src="./assets/coin.png" alt="coin-icon" />0 BDT
+          </div>
+
+          <div>
+            <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+          </div>
+          <div>
+            <p class="w-[520px] h-32 pb-6">
+              The recent floods in Noakhali have caused significant damage to
+              homes infrastructure. Your donation will help provide essential
+              supplies and to those affected by this disaster. Every
+              contribution, big or small, makes difference. Please join us in
+              supporting the relief efforts and making a positive impact on the
+              lives of those in need.
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Write Donation Amount"
+              class="input input-bordered w-full max-w-auto"
+            />
+          </div>
+          <div class="">
+            <button class="btn w-full text-[#111111] bg-[#B4F461]">
+              Donate Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CARD NO. #1 END -->
     </main>
   </body>
 </html>
