@@ -42,7 +42,9 @@
         </div>
         <div>
           <img class="w-7" src="./assets/coin.png" alt="coin-icon" />
-          <p class="pl-3 text-xl font-medium text-[#111111]">5500 BDT</p>
+          <p class="pl-3 text-xl font-medium text-[#111111]">
+            <span id="current-balance">5500</span><span class="pl-1">BDT</span>
+          </p>
         </div>
       </nav>
 
@@ -82,9 +84,12 @@
         <!-- Card Text -->
         <div class="pl-8 space-y-6">
           <div
-            class="flex w-28 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
+            class="flex w-40 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
           >
-            <img class="pr-2" src="./assets/coin.png" alt="coin-icon" />0 BDT
+            <img class="pr-2" src="./assets/coin.png" alt="coin-icon" /><span
+              id="new-balance"
+              >0</span
+            ><span class="pl-1">BDT</span>
           </div>
 
           <div>
@@ -104,11 +109,15 @@
             <input
               type="text"
               placeholder="Write Donation Amount"
+              id="input-money"
               class="input input-bordered w-full max-w-auto"
             />
           </div>
-          <div class="">
-            <button class="btn w-full text-[#111111] bg-[#B4F461]">
+          <div>
+            <button
+              id="btn-donate"
+              class="btn w-full text-[#111111] bg-[#B4F461]"
+            >
               Donate Now
             </button>
           </div>
@@ -116,5 +125,9 @@
       </div>
       <!-- CARD NO. #1 END -->
     </main>
+
+    <!-- Javascript  -->
+    <script src="./js/addMoney.js"></script>
+    <script src="./js/currentBalance.js"></script>
   </body>
 </html>
