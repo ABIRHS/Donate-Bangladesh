@@ -71,7 +71,9 @@
       <!-- TOGGLE BUTTON END -->
 
       <!-- CARD NO. #1 START -->
-      <div class="w-auto h-[453px] p-8 card lg:card-side bg-base-100 shadow-xl">
+      <div
+        class="w-auto h-[453px] p-8 mb-8 card lg:card-side bg-base-100 shadow-xl"
+      >
         <!-- Image Body -->
         <figure>
           <img
@@ -87,7 +89,7 @@
             class="flex w-40 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
           >
             <img class="pr-2" src="./assets/coin.png" alt="coin-icon" /><span
-              id="new-balance"
+              id="noakhali-new-balance"
               >0</span
             ><span class="pl-1">BDT</span>
           </div>
@@ -109,7 +111,7 @@
             <input
               type="text"
               placeholder="Write Donation Amount"
-              id="input-money"
+              id="noakhali-input-money"
               class="input input-bordered w-full max-w-auto"
             />
           </div>
@@ -124,10 +126,127 @@
         </div>
       </div>
       <!-- CARD NO. #1 END -->
+
+      <!-- CARD NO. #2 START -->
+      <div
+        class="w-auto h-[453px] p-8 mb-8 card lg:card-side bg-base-100 shadow-xl"
+      >
+        <!-- Image Body -->
+        <figure>
+          <img
+            class="w-[522px] h-[389px] self-stretch"
+            src="./assets/noakhali.png"
+            alt="flood"
+          />
+        </figure>
+
+        <!-- Card Text -->
+        <div class="pl-8 space-y-6">
+          <div
+            class="flex w-40 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
+          >
+            <img class="pr-2" src="./assets/coin.png" alt="coin-icon" /><span
+              id="feni-new-balance"
+              >0</span
+            ><span class="pl-1">BDT</span>
+          </div>
+
+          <div>
+            <h2 class="card-title">
+              Donate for Flood Relief in Feni,Bangladesh
+            </h2>
+          </div>
+          <div>
+            <p class="w-[520px] h-32 pb-6">
+              The recent floods in Feni have devastated local communities,
+              leading to severe disruption and loss. Your generous donation will
+              help provide immediate aid, including food, clean water, and
+              medical supplies, to those affected by this calamity. Together, we
+              can offer crucial support and help rebuild lives in the aftermath
+              of this disaster.
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Write Donation Amount"
+              id="feni-input-money"
+              class="input input-bordered w-full max-w-auto"
+            />
+          </div>
+          <div>
+            <button
+              id="btn-donate"
+              class="btn w-full text-[#111111] bg-[#B4F461]"
+            >
+              Donate Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CARD NO. #2 END -->
+
+      <!-- CARD NO. #3 START -->
+      <div
+        class="w-auto h-[453px] p-8 mb-8 card lg:card-side bg-base-100 shadow-xl"
+      >
+        <!-- Image Body -->
+        <figure>
+          <img
+            class="w-[522px] h-[389px] self-stretch"
+            src="./assets/noakhali.png"
+            alt="flood"
+          />
+        </figure>
+
+        <!-- Card Text -->
+        <div class="pl-8 space-y-6">
+          <div
+            class="flex w-40 h-11 text-xl rounded-lg text-center justify-center items-center font-semibold text-[#111111] bg-[#111111]/5"
+          >
+            <img class="pr-2" src="./assets/coin.png" alt="coin-icon" /><span
+              id="quota-new-balance"
+              >0</span
+            ><span class="pl-1">BDT</span>
+          </div>
+
+          <div>
+            <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
+          </div>
+          <div>
+            <p class="w-[520px] h-32 pb-6">
+              The recent Quota movement has resulted in numerous injuries and
+              significant hardship for many individuals. Your support is crucial
+              in providing medical assistance, rehabilitation, and necessary
+              supplies to those affected. By contributing, you help ensure that
+              injured individuals receive the care and support they need during
+              this challenging time.
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Write Donation Amount"
+              id="quota-input-money"
+              class="input input-bordered w-full max-w-auto"
+            />
+          </div>
+          <div>
+            <button
+              id="btn-donate"
+              class="btn w-full text-[#111111] bg-[#B4F461]"
+            >
+              Donate Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CARD NO. #3 END -->
     </main>
 
     <!-- Javascript  -->
     <script src="./js/addMoney.js"></script>
     <script src="./js/currentBalance.js"></script>
+    <script src="./js/utilities.js"></script>
   </body>
 </html>

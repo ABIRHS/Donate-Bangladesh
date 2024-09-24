@@ -3,21 +3,14 @@ document
   .addEventListener("click", function (event) {
     event.preventDefault();
 
-    const addValue = document.getElementById("input-money").value;
-    const addMoney = parseFloat(addValue);
+    const addMoney = getElementValueById("noakhali-input-money");
 
-    const currentBalanceInt =
-      document.getElementById("current-balance").innerText;
-    const currentBalance = parseFloat(currentBalanceInt);
+    const currentBalance = getTextFieldValueById("current-balance");
 
     const updatedCurrentBalance = currentBalance - addMoney;
-
-    console.log(currentBalance);
-    console.log(addMoney);
-    console.log(addValue);
 
     document.getElementById("current-balance").innerText =
       updatedCurrentBalance;
 
-    document.getElementById("input-money").value = "";
+    document.getElementById("noakhali-input-money").value = "";
   });
