@@ -16,7 +16,10 @@ document
     const newBalance = parseFloat(newBalanceInt);
 
     const totalDonation = newBalance + donationAmount;
+
     document.getElementById("noakhali-new-balance").innerText = totalDonation;
+
+    alert("Donation successful!");
   });
 
 document

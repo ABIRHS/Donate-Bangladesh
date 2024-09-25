@@ -9,3 +9,10 @@ function getTextFieldValueById(id) {
   const textNumber = parseFloat(textValue);
   return textNumber;
 }
+
+function showSectionById(id) {
+  document.getElementById("donation-container").classList.add("hidden");
+  document.getElementById("transaction-history").classList.add("hidden");
+  // Show the section with the provide id as parameter
+  document.getElementById(id).classList.remove("hidden");
+}
